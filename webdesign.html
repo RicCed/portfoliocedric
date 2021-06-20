@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Cedric Flipkens</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <p></p>
+        <a href="index.html">Home</a>
+        <a href="grafisch.html">Grafisch</a>
+        <a href="webdesign.html" class="active">Webdesign</a>
+        <a href="over.html">Over Mij</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <img src="images/logo_klein.png" alt="Logo" class="logo">
+
+    <i class="togglenav fa fa-bars"></i>
+    <div class="overlay">
+
+        <i class="closenav fa fa-times"></i>
+        <ul class="navigatie">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="grafisch.html">Grafisch Design</a></li>
+            <li><a href="webdesign.html">Webdesign</a></li>
+            <li><a href="over.html">Over Mij</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><img src="images/logo_klein.png" alt="Logo"></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1 class="webdesign-head">Webdesign</h1>
+        <p class="webdesign-head">Click on the images to go to the site!</p>
+        <h3 class="webdesign-head">WordPress</h3>
+        <a href="http://webmaster.cvocursist.com/cedric/" target="_blank">
+            <picture>
+                <source media="(min-width: 1500px)" srcset="images/neffex-groot.png">
+                <source media="(min-width: 900px)" srcset="images/neffex-middel.png">
+                <source media="(min-width: 60px)" srcset="images/neffex-klein.png">
+    
+                <img src="images/neffex-klein.png" alt="NEFFEX WordPress" class="wordpress-afbeelding">
+            </picture>
+        </a>
+        <!-- <a href="http://webmaster.cvocursist.com/cedric/" target="_blank"><img src="images/neffex-klein.png" alt="NEFFEX WordPress" class="wordpress-afbeelding"></a> -->
+    </div>
+    <!-- <nav>
+        <p></p>
+        <a href="index.html" class="active">Home</a>
+        <a href="grafisch.html">Grafisch Design</a>
+        <a href="webdesign.html">Webdesign</a>
+        <a href="over.html">Over Mij</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <img src="images/logo_klein.png" alt="Logo" class="logo">
+    <h1>Cedric Flipkens</h1>
+    <div class="rij">
+        <div class="container">
+            <img src="images/grafisch-thumbnail.png" alt="Thumbnail Grafisch Design">
+            <h2>Grafisch Design</h2>
+        </div>
+        <div class="container">
+            <img src="images/over-thumbnail.png" alt="Thumbnail Over Mij">
+            <h2>Over Mij</h2>
+        </div>
+    </div>
+    <h1>Mijn portfolio</h1>
+    <div class="rij">
+        <div class="container">
+            <img src="images/webdesign-thumbnail.png" alt="Thumbnail Webdesign">
+            <h2>Webdesign</h2>
+        </div>
+        <div class="container">
+            <img src="images/contact-thumbnail.png" alt="Thumbnail Contact">
+            <h2>Contact</h2>
+        </div>
+    </div> -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    
+    <script type="text/javascript">
+
+        jQuery(".togglenav").click(function(){
+
+            jQuery(".overlay").slideToggle();
+            $(".content").slideToggle();
+
+        });
+
+        jQuery(".closenav").click(function(){
+
+            jQuery(".overlay").slideToggle();
+            $(".content").slideToggle();
+        });
+
+    </script>
+</body>
+</html>

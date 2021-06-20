@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hammersmith+One&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.overlay, .extra-information, .extra-information2, .extra-information3{
+    display: none;
+    background: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.overlay .navigatie a{
+    font-size: 20px;
+    color: white;
+    padding: 20px 0;
+    display: block;
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.overlay .navigatie li{
+    list-style-type: none;
+    text-align: center;
+}
+
+.overlay .navigatie{
+    padding-left: 0;
+}
+
+.togglenav{
+    margin-left: 0.75rem;
+    margin-top: 0.75rem;
+    font-size: 1.5rem;
+}
+
+.closenav, .close-afbeelding, .close-afbeelding2, .close-afbeelding3{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+h1, h2, h3, a, p{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h1, p{
+    text-align: center;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.container-links{
+    position: relative;
+    float: left;
+    margin-bottom: 1rem;
+}
+
+.container-rechts{
+    position: relative;
+    float: right;
+    margin-bottom: 1rem;
+}
+
+.container-links h2, .container-rechts h2{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    width: 60%;
+}
+
+.illustrator-afbeelding{
+    display: block;
+    margin: auto;
+    border: #fbbb4d solid 5px;
+    margin-bottom: 1rem;
+}
+
+.photoshop-afbeelding{
+    display: block;
+    margin: auto;
+    border: #8bc3fc solid 5px;
+    margin-bottom: 1rem;
+}
+
+.indesign-afbeelding{
+    display: block;
+    margin: auto;
+    border: #e749a0 solid 5px;
+    margin-bottom: 1rem;
+}
+
+.cedric-afbeelding{
+    display: block;
+    margin: auto;
+    border: #ECB939 solid 5px;
+    margin-bottom: 1rem;
+}
+
+.tekst p{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 1rem;
+    color: #ECB939;
+}
+
+.tekst2{
+    background-color: #ECB939;
+    color: black;
+    font-size: 1rem;
+    font-family: 'Hammersmith One', sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.extra-information h2, .extra-information2 h2, .extra-information3 h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.extra-information h3, .extra-information2 h3, .extra-information3 h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.extra-information img, .extra-information2 img, .extra-information3 img{
+    display: block;
+    margin: auto;
+}
+
+.extra-information p, .extra-information2 p, .extra-information3 p{
+    font-family: 'Hammersmith One', serif;
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.wordpress-afbeelding{
+    display: block;
+    margin: auto;
+    border: #0078d7 solid 5px;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+input,textarea {
+    padding: 1rem;
+    background-color: white;
+    width: 80%;
+    border: 1px solid transparent;
+  }
+  
+  textarea {
+    min-height: 6rem;
+  }
+  
+  .submit_field button{
+    padding: 1rem;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1rem;
+  }
+
+  input, textarea{
+      font-family: 'Hammersmith One', sans-serif;
+      font-size: 1rem;
+  }
+
+  iframe{
+      display: block;
+      margin: auto;
+      height: 20rem;
+  }
+  
+  .informatie p{
+      text-align: left;
+      margin-left: 2rem;
+  }
+
+  nav, .logo{
+      display: none;
+  }
+
+  .over-head{
+      color: #ECB939;
+  }
+
+  .grafisch-head{
+      color: #fbbb4d;
+  }
+
+  .webdesign-head{
+      color: #0078d7;
+  }
+
+@media screen and (min-width: 400px){
+
+    input,textarea {
+        padding: 1rem;
+        background-color: white;
+        width: 85%;
+        border: 1px solid transparent;
+      }
+      
+      textarea {
+        min-height: 9rem;
+      }
+      
+      .submit_field button{
+        padding: 1rem 2rem;
+        border: none;
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.5rem;
+      }
+    
+      iframe{
+          display: block;
+          margin: auto;
+          width: 85%;
+          height: 20rem;
+      }
+}
+
+@media screen and (min-width: 500px){
+    input,textarea {
+        padding: 1rem;
+        background-color: white;
+        width: 90%;
+        border: 1px solid transparent;
+      }
+      
+      textarea {
+        min-height: 9rem;
+      }
+      
+      .submit_field button{
+        padding: 1rem 2rem;
+        border: none;
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.5rem;
+      }
+    
+      iframe{
+          display: block;
+          margin: auto;
+          width: 90%;
+          height: 20rem;
+      }
+}
+
+@media screen and (min-width: 800px){
+    input,textarea {
+        padding: 1rem;
+        background-color: white;
+        width: 91%;
+        border: 1px solid transparent;
+      }
+      
+      textarea {
+        min-height: 9rem;
+      }
+      
+      .submit_field button{
+        padding: 1rem 2rem;
+        border: none;
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.5rem;
+      }
+    
+      iframe{
+          display: block;
+          margin: auto;
+          width: 91%;
+          height: 20rem;
+      }
+}
+
+@media screen and (min-width: 900px){
+    .togglenav{
+        display: none;
+    }
+
+    .logo{
+        display: grid;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    
+    nav{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        font-size: 2rem;
+    }
+    
+    nav a{
+        text-align: center;
+        transition-duration: 500ms;
+    }
+    
+    nav a:hover{
+        border-bottom: 7px solid white;
+    }
+    
+    .active{
+        border-bottom: 7px solid white;
+    }
+    
+    nav ul{
+        list-style-type: none;
+    }
+    
+    nav a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .container-links{
+        position: relative;
+        float: left;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+    
+    .container-rechts{
+        position: relative;
+        float: right;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .container-links h2, .container-rechts h2{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 40%;
+        text-align: center;
+        width: 60%;
+    }
+
+    nav{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        font-size: 2rem;
+        /* grid-area: 'logo home grafisch webdesign over contact' */
+    }
+
+    nav a{
+        text-align: center;
+        transition-duration: 500ms;
+    }
+
+    nav a:hover{
+        border-bottom: 7px solid white;
+    }
+
+    .active{
+        border-bottom: 7px solid white;
+    }
+
+    nav ul{
+        list-style-type: none;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: white;
+    }
+
+    h1, h2, a{
+        font-family: 'Bebas Neue', sans-serif;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .container{
+        position: relative;
+        display: inline-block;
+    }
+
+    .container h2{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 40%;
+        text-align: center;
+        width: 60%;
+    }
+
+    .logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    .tekst{
+        margin-top: 3rem;
+    }
+
+    .tekst2{
+        background-color: #ECB939;
+        color: black;
+        font-size: 1rem;
+        font-family: 'Hammersmith One', sans-serif;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    input,textarea {
+        padding: 1rem;
+        background-color: white;
+        width: 95%;
+        border: 1px solid transparent;
+      }
+      
+      textarea {
+        min-height: 9rem;
+      }
+      
+      .submit_field button{
+        padding: 1rem 2rem;
+        border: none;
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.5rem;
+      }
+    
+      iframe{
+          display: block;
+          margin: auto;
+          width: 95%;
+          height: 20rem;
+      }
+}
+
+@media screen and (min-width: 1500px){
+    .tekst p, .tekst2 li{
+        font-size: 1.25rem;
+    }
+
+    .tekst{
+        margin-top: 5rem;
+    }
+
+    input,textarea {
+        padding: 1rem;
+        background-color: white;
+        width: 96%;
+        border: 1px solid transparent;
+      }
+      
+      textarea {
+        min-height: 9rem;
+      }
+      
+      .submit_field button{
+        padding: 1rem 3rem;
+        border: none;
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2rem;
+      }
+    
+      iframe{
+          display: block;
+          margin: auto;
+          width: 96%;
+          height: 20rem;
+      }
+}
